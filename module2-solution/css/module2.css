@@ -20,13 +20,15 @@
 
 @media (min-width: 768px) and (max-width: 991px){
 	.col-md-1, .col-md-2{
+		background-color: grey;
 		float: left;
-		background-color: palevioletred;
-		border: 1px solid black;
+		position: relative;
 		height: auto;
+		font-family: Helvetica;
+		margin: 1%;
 	}
 	.col-md-1{
-		width: 50%;
+		width: 48%;
 	}
 	.col-md-2{
 		width: 100%;
